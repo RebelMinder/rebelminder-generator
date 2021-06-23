@@ -1,0 +1,29 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.page-content {
+	position: relative;
+	min-height: 100vh;
+}
+
+.page-footer {
+	position: relative;
+	margin-top: -80px;
+	bottom: 0;
+	/* negative value of footer height */
+	height: 80px;
+	clear: both;
+	background-color: red;
+}
